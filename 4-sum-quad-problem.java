@@ -35,6 +35,7 @@ public List<List<Integer>> fourSum(int[] num, int target){
                     quad.add(num[j]);
                     quad.add(num[front]);
                     quad.add(num[back]);
+                    res.add(quad);
                     
                     // processing the duplicates of number at 3rd position in quad
                     while(front < back && num[front] == quad.get(2) ) ++front;
