@@ -72,8 +72,9 @@ class Main{
         {
             for(int j=0; j<ls.get(i).size(); j++)
             {
-                System.out.println(ls.get(i).get(j));
+                System.out.print(ls.get(i).get(j) + " ");
             }
+            System.out.println();
         }
         
     }
