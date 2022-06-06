@@ -7,7 +7,7 @@ import java.util.Collections;
 
 public class Solution 
 {
-	public static ArrayList<Integer> nextPermutation(ArrayList<Integer> permutation) 
+	public static ArrayList<Integer> nextPermutation(ArrayList<Integer> permutation) // parameter in the form of ArrayList with same return type
 	{
 		// Write your code here.
         if(permutation == null || permutation.size() <=1) return permutation;
