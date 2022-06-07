@@ -15,6 +15,7 @@ public class Solution {
             if(sum > maxSum) maxSum=sum;
             if(sum < 0) sum=0;
         }
+		
     // if we do not wanna output -ve maximum sum such that in case of array of all -ve numbers
     // eg. [-7, -8, -16, -4, -8, -5, -7, -11, -10, -12, -4, -6, -4, -16,-10 ]
     // in above example Maximum sum is -ve , so we changed it into 0
