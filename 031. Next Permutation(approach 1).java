@@ -24,7 +24,8 @@ public class Solution
         return permutation;
 	}
     
-    
+	
+	
         public static void swap(ArrayList<Integer> permutation, int i, int j) {
     int tmp = permutation.get(i);
     permutation.set(i, permutation.get(j) );
