@@ -1,5 +1,5 @@
 // Rotate matrix 90 degree clockwise 
-
+// or rotate twice every element 90 degree cockwise
 class Solution {
     public void rotate(int[][] matrix) {
         
