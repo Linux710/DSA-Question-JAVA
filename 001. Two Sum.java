@@ -6,6 +6,7 @@ that maps a value to its index.*/
 
 import java.util.*;
 
+
 class Main {
 
 //--------------[Two SUM function]------------------
