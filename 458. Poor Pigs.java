@@ -6,6 +6,6 @@ while(Math.pow(period, ans) < buckets)
 {
 ans ++;
 }
-return ans;
+return ans;//final answer
     }
 }
