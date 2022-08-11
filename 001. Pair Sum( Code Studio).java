@@ -29,6 +29,7 @@ public class Solution {
             while (count-- > 0) {
                 ans.add(pair);
             }
+            
 
             map.put(ele, map.getOrDefault(ele, 0) + 1);//comment 
         }
