@@ -31,6 +31,7 @@ class Solution {
         
         left_trail.next = right.next;
         right_trail.next = null;
+      
         
         return left.next;
         
